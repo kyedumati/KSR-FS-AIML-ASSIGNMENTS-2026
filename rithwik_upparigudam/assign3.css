@@ -1,0 +1,68 @@
+
+.Rithwik{
+    color:blue
+}
+.Nav1{
+    background-color:steelblue
+
+
+}
+nav p{
+
+    display:inline-block
+    ;color:white;
+
+}
+nav a{
+    padding:9px 10px;
+    display:block;
+    color:white;
+}
+.div1{
+    width:500px;
+    border-style:solid;
+    border-color:steelblue;
+    border-width:5px;
+}
+
+.section li{
+    list-style: none;
+    padding-right:40px
+
+
+
+}
+.section {
+    border-style:solid ;
+    width:500px;
+    border-color:steelblue;
+    border-width:5px;
+}
+
+
+.em {
+    border-style:Solid ;
+    border-color:steelblue;
+    border-width:5px;
+    width:500px;
+}
+
+.em li{
+    list-style:none;
+    padding-right:50px;
+    display:inline-block;
+   }
+footer{
+    padding-bottom:100px;
+    border-style:solid
+    width:200px;
+
+
+}
+footer li{
+    padding-right:45px;
+    list-style:none;
+}
+footer li a{
+    color:orange;
+}
