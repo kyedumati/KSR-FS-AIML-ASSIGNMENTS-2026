@@ -1,0 +1,272 @@
+.ProfileMain{
+    border:1px solid black;
+    border-radius:30px;
+    margin:50px;
+    width:750px;
+    height:700px;
+    background-color:white;
+    margin:30px auto;
+
+}
+.CenteredTexts{
+    text-align:center;
+    border-bottom:1px solid black;
+}
+.OlListProfile{
+    list-style:None;
+    padding-left:0px;
+}
+
+
+.PolociesE{
+ border:1px solid black;
+    border-radius:30px;
+    width:750px;
+    height:800px;
+    margin:10px auto;
+    background-color:white;
+}
+
+.PolicyMain{
+    padding-left:30px;
+
+}
+
+.box{
+    border:2px solid black;
+    border-radius:10px;
+    width:700px;
+    margin-bottom:10px
+
+}
+.Summary{
+    font-size:25px;
+    border:2px solid black;
+    border-radius:10px;
+    width:700px;
+    margin-bottom:10px
+}
+/*Leave Html File*/
+.box {
+    display: grid;
+    grid-template-columns:1fr;
+    width: 700px;
+    height: 850px;
+    margin: 30px auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color:white;
+}
+
+
+.MainTexts{
+    margin-left:20px;
+
+}
+.selectdropdown{
+    width:600px;
+    height:35px;
+    border-radius:3px;
+    border:2px solid black;
+
+}
+.GridStyle{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.borders input{
+    width:200px;
+    gap:300px;
+    margin-right:30px;
+    border:1px solid black;
+
+
+
+}
+.Duration{
+border:2px solid black;
+    width:500px;
+    padding:10px;
+    gap:4000px;
+    border-radius:10px
+}
+.textarea textarea{
+    width:627px;
+    height:223px;
+
+}
+.checkbox{
+    display:flex;
+    gap:2px
+
+}
+.sumbitbutton{
+    border:1px solid black;
+    width:150px;
+    height:35px;
+    background-color:#16165d;
+    color:white;
+    border-radius:10px
+/*dashboard Css*/
+}
+.Smallboxes{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    /*width:1300px;*/
+
+}
+.boxes{
+    border:2px solid black;
+    margin-left:30px;
+    text-align:center;
+    border-radius:15px;
+    background-color:white;
+    margin-right:36px
+}
+.Smallboxes2{
+    display:grid;
+    grid-template-columns:800px auto;
+}
+.boxes2{
+border:2px solid black;
+    height:300px;
+    margin:30px;
+    padding-left:30px;
+    border-radius:15px;
+    background-color:white;
+}
+.HeadCount{
+ display:flex;
+    font-size:20px;
+    gap:30px
+}
+.div2size{
+    position: relative;
+    left:90px
+}
+/*DirectoryPage*/
+.HeaderDirectory{
+    margin:30px;
+}
+/*.gridmain{*/
+/*display:grid;*/
+/*     grid-template-columns: 1fr 1fr 1fr;*/
+/*    row-gap:30px;*/
+/*}*/
+/*.gridx{*/
+/*border:2px solid black;*/
+/*    border-radius:15px;*/
+/*    padding:20px;*/
+
+/*}*/
+/*.imageclass{*/
+/*display:flex;*/
+/*    align-items:center;*/
+/*    gap:15px;*/
+/*}*/
+/*.imageclass img{*/
+/*   width:70px;*/
+/*    height:70px;*/
+
+/*}*/
+/*.gridx h3 {*/
+/*    margin: 0 0 6px*/
+/*}*/
+/*.gridx p*/
+/*{*/
+/*    margin: 0;*/
+/*}*/
+/*.imageclass img{*/
+/*    width:1000px;*/
+/*    height:300px;*/
+/*}*/
+.gridmain{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:30px;
+
+}
+.gridx{
+    border:3px solid white;
+    border-radius:3%;
+    align-content:center;
+    padding:30px;
+    background-color:azure;
+    height:170px;
+}
+.gridx img{
+    width:100px
+}
+.ab{
+    display:flex;
+    gap:50px;
+}
+
+.info{
+    width:200px;
+    text-align:right;
+    padding-left:35px;
+    padding-bottom:0px;
+}
+.attendacemain{
+    margin-left:30px
+}
+
+.MainHeaderRow{
+    font-size:30px;
+
+
+}
+.MainHeaderRow th{
+      width:300px;
+    font-size:25px;
+    text-align:left;
+    border-bottom:2px solid #16165d;
+    color:dimgrey;
+}
+.TableTd td{
+    font-size:20px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:left;
+    border-bottom:1px solid blue;
+}
+.TableTdlast td{
+    font-size:20px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:left;
+    border-bottom:2px solid #16165d;
+}
+.FinalRow{
+ font-size:20px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:left;
+}
+
+.statusOnTime {
+     display:inline-block;
+    border:1px solid greenyellow;
+    border-radius:1000px;
+    background-color:#abffa5;
+
+}
+.statuslate{
+     display:inline-block;
+    border-radius:1000px;
+      border:1px solid greenyellow;;
+    background-color:#ff0f0f;
+}
+.statusleave{
+    display:inline-block;
+    border:1px solid greenyellow;
+   border-radius:1000px;
+    background-color:#6719ad;
+}
+.Whitrow tr{
+    background-color:white;
+}
