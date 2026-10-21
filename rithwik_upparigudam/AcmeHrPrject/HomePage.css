@@ -1,0 +1,47 @@
+.Navx{
+    display:flex;
+    background-color:#16165d;
+    margin:0px 20px
+}
+.Header{
+
+}
+.Navx p {
+    color:white;
+    margin-right:55px;
+    padding:3px;
+
+}
+.Navx p a {
+    color:white;
+}
+
+.home_dashboard{
+margin:0px 70px
+}
+
+.BlueFonting{
+    color:#16165d;
+}
+
+.Tiles{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:30px
+}
+.tile{
+    border:3px solid white;
+    border-radius:3%;
+    align-content:center;
+    padding:30px;
+    background-color:azure;
+}
+
+.imageclass{
+    padding:0 250px;
+}
+
+.imageclass img{
+    border-style:solid;
+}
+

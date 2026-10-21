@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Applying For Leaves</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="ProfilePage.css">
+</head>
+<body style="background-color:#adc8d4">
+<nav class="Navx">
+    <p><a href="home.html">AcmeHr</a></p>
+    <p><a href="home.html" target="_self">Home</a></p>
+    <p><a href="Profile.html">Profile</a></p>
+    <p><a href="Directory.html">Directory</a></p>
+    <p><a href="Dashboard.html">DashBoard</a></p>
+    <p><a href="Leave.html">Leave</a></p>
+    <p><a href="Attendance.html">Attendance</a></p>
+    <p><a href="Policies.html">Policies</a></p>
+
+</nav>
+
+<main>
+    <div class="box">
+        <div class="MainTexts">
+        <h1 class="BlueFonting">Apply For Leave</h1>
+            <h3>Balance Casual:8 Days Sick:10 Days. EarnedLeave 15 days</h3>
+            <form action="ConfoPage.html">
+                <label class="BlueFonting"><h3>Leave Type</h3></label>
+                <select name="Leave" class="selectdropdown" required>
+                    <option value="" selected disabled>Choose a Leave Type</option>
+                    <option value="SickLeave">Sick Leave</option>
+                    <option value="CasualLeave">Casual Leave</option>
+                    <option value="EarnedLeave">Earned Leave</option>
+                    <option value="MaternityLeave">Maternity Leave</option>
+                    <option value="PaternityLeave">Paternity Leave</option>
+
+                </select>
+            <div class="GridStyle">
+                  <h3 class="BlueFonting">From</h3>
+                   <h3 class="BlueFonting">To</h3>
+            </div>
+            <div class="borders">
+                 <input type="date" required>
+                <input type="date" required>
+            </div>
+            <h3 class="BlueFonting">Duration</h3>
+                <div class="Duration">
+                    <input type="radio" name="Duration" required>
+                     <label>Full Day</label>
+                    <input type="radio" name="Duration">
+                    <label>First Half</label>
+                    <input type="radio" name="Duration">
+                    <label>Second half</label>
+                </div>
+            <h3 class="BlueFonting">Reason</h3>
+                <div class="textarea">
+                    <textarea>
+                    </textarea>
+                </div>
+            <h3 class="BlueFonting"> Supporting Document(Optional, PDF or Image)</h3>
+                <input type="file" name="File">
+                <br>
+                <div class="checkbox">
+                <input type="checkbox">
+                <p><b>Email My Team About This Leave</b></p>
+                </div>
+                <button type="submit" class="sumbitbutton"> Apply For Leave</button>
+</form>
+            </div>
+    </div>
+</main>
+  <hr>
+    <footer style="text-align:center;margin:80px">
+        <p>AcmeHR.Sample Data For This Course</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
