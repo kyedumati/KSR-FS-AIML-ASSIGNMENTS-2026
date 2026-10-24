@@ -1,0 +1,28 @@
+2026-10-24 05:56:19,476-INFO-Opened MySqlConnector
+2026-10-24 05:56:23,645-WARNING-Wrong Password Entered
+2026-10-24 05:56:59,483-INFO-Opened MySqlConnector
+2026-10-24 05:57:01,168-INFO-Password Entered Connected to DataBase
+2026-10-24 05:57:07,149-INFO-user choose database mydb
+2026-10-24 05:57:07,244-INFO-MySqlConnectorPython Opened
+2026-10-24 05:57:09,571-INFO-User Chooce To ViewTables
+2026-10-24 05:57:11,758-INFO-User Selected Option1 To view Tablenoob
+2026-10-24 05:57:11,758-INFO-User Choose to Reading Data In Tables
+2026-10-24 05:57:26,984-INFO-User Choose to update table
+2026-10-24 05:57:26,987-ERROR-1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'noob' at line 1 Error
+2026-10-24 05:58:44,936-INFO-User Choose to Inserting Data Into Tables
+2026-10-24 05:58:44,939-ERROR-1292 (22007): Incorrect date value: '24-10-2026' for column 'joindate' at row 1
+2026-10-24 05:59:40,373-INFO-User Choose to Inserting Data Into Tables
+2026-10-24 05:59:40,375-INFO- [('4', 'prakash', 'kumar', 'prakashkumar@gmail.com', '2026-10-24')]Values Added SucessFully
+2026-10-24 05:59:43,012-INFO-User Chooce To ViewTables
+2026-10-24 05:59:45,204-INFO-User Selected Option1 To view Tablenoob
+2026-10-24 05:59:45,204-INFO-User Choose to Reading Data In Tables
+2026-10-24 06:00:05,204-INFO-User choose Custom Prompt
+2026-10-24 06:00:05,205-INFO-Custom Prompt printed Sucessfully
+2026-10-24 06:00:42,012-INFO-User Choose to update table
+2026-10-24 06:00:42,013-ERROR-1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from noob set firstname="Prakash" where firstname="prakash"' at line 1 Error
+2026-10-24 06:01:11,371-INFO-User Choose to update table
+2026-10-24 06:01:11,371-ERROR-1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from noob set firstname=prakash where firstname=prakash' at line 1 Error
+2026-10-24 06:02:22,127-WARNING-User Choose to rename table
+2026-10-24 06:02:22,145-WARNING-Table Name noob changed to NOOB
+2026-10-24 06:02:27,570-WARNING-User Choose to rename table
+2026-10-24 06:02:27,575-WARNING-Table Name NOOB changed to noob
