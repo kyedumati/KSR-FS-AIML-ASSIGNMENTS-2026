@@ -2,7 +2,7 @@ import mysql.connector
 import os
 import logging
 logging.basicConfig(level=logging.INFO,filename=
-"CompanyDb.txt",filemode="a",format="%(asctime)s-%(levelname)s-%(message)s")
+"CompanyDb.log",filemode="a",format="%(asctime)s-%(levelname)s-%(message)s")
 class MySqlConnector:
     def __init__(self,Connection,table):
         self.connection=Connection
@@ -59,7 +59,7 @@ class MySqlConnector:
         except Exception as e:
             print(e)
             logging.error(e)
-    def ClosingDatabase(self):
+    def closing_database(self):
         self.cursor.close()
         self.connection.close()
         logging.info("Closing Database")
